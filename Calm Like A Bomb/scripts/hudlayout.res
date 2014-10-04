@@ -48,7 +48,7 @@
         "controlname"   "CExLabel"
         "fieldname" "fogCrosshair"
         
-        "visible"   "1"
+        "visible"   "0"
         "enabled"   "1"
 
 	  "zpos" "2"
@@ -155,7 +155,6 @@
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "c-50"
-        //"ypos"            "r133"
         "ypos"          "r118"
         "zpos"          "2"
         "wide"          "96"
@@ -170,10 +169,10 @@
         "visible"       "1"
         "enabled"       "1"
         "xpos"          "c-48"
-        "ypos"          "r116" //r111
+        "ypos"          "r116"
         "zpos"          "2"
-        "wide"          "96" //96
-        "tall"          "30" //5
+        "wide"          "96"
+        "tall"          "30"
         "MeterFG"       "0 0 0 255"
         "MeterBG"       "Gray"
     }
@@ -436,17 +435,16 @@
 
     HudDamageIndicator
     {
-        "fieldName" 
-        "HudDamageIndicator" 
-        "visible" "1" 
-        "enabled" "1" 
-        "MinimumWidth" "10" 
-        "MaximumWidth" "10" 
-        "StartRadius" "80" 
-        "EndRadius" "80" 
-        "MinimumHeight" "30" 
-        "MaximumHeight" "60" 
-        "MinimumTime" "1"
+        "fieldName" 	"HudDamageIndicator" 
+        "visible" 	"1" 
+        "enabled" 	"1" 
+        "MinimumWidth" 	"5"
+        "MaximumWidth" 	"10"
+        "StartRadius" 	"80" 
+        "EndRadius" 	"80" 
+        "MinimumHeight" "40"
+        "MaximumHeight" "70"
+        "MinimumTime" 	"1"
     }
 
     HudCommentary
