@@ -40,7 +40,7 @@
         "PaintBackgroundType"   "0"
     }
 //######################################################
-//#FOG CROSSHAIRS##(CREDITS TO CHIPPY FROM KNHUD/BXHUD)#
+//#                   FOG CROSSHAIRS                   #
 //######################################################
 //
     fogCrosshair
@@ -48,7 +48,7 @@
         "controlname"   "CExLabel"
         "fieldname" "fogCrosshair"
         
-        "visible"   "1"
+        "visible"   "0"  //Change it to "1" to enable it
         "enabled"   "1"
 
 	  "zpos" "2"
@@ -58,7 +58,7 @@
 	  "wide" "200"
 	  "tall" "200"
 
-        "font"      "fogCrosshairSmooth"
+        "font"      "fogCrosshairSmall"
         //
         // Choose what kind
         //

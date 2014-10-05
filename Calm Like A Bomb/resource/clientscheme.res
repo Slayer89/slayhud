@@ -696,21 +696,21 @@ Scheme
                 "name"      "Crosshairs"
                 "tall"      "28"
                 "additive"  "0"
-                "antialias"     "0"
+                "antialias"     "1"
                 "weight"    "0"
                 "outline"   "1"
             }
         }
-        fogCrosshairPlain
+        fogCrosshairSmall
         {
             "1"
             {
                 "name"      "Crosshairs"
-                "tall"      "28"
+                "tall"      "24"
                 "additive"  "0"
-                "antialias"     "0"
+                "antialias"     "1"
                 "weight"    "0"
-                "outline"   "0"
+                "outline"   "1"
             }
         }
         fogCrosshairSmooth
