@@ -32,7 +32,7 @@
 		"xpos"			"0"
 		"ypos"			"r110"
 		"zpos"			"-2"
-		"wide"			"125"
+		"wide"			"160"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -47,7 +47,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ShadedBarTeamColor"
-		"xpos"			"125"
+		"xpos"			"161"
 		"ypos"			"r110"
 		"zpos"			"-2"
 		"wide"			"4"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"125"
+		"xpos"			"161"
 		"ypos"			"r110"
 		"zpos"			"-1"
 		"wide"			"4"

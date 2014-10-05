@@ -48,13 +48,13 @@
         "controlname"   "CExLabel"
         "fieldname" "fogCrosshair"
         
-        "visible"   "0"
+        "visible"   "1"
         "enabled"   "1"
 
 	  "zpos" "2"
 
-	  "xpos" "c-103"
-	  "ypos" "c-100"
+	  "xpos" "c-102"
+	  "ypos" "c-99"
 	  "wide" "200"
 	  "tall" "200"
 
@@ -67,7 +67,7 @@
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
-        "labeltext" "3"
+        "labeltext" "v"
         //
         // Choose your crosshair
         // 
@@ -296,7 +296,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-120"
-        "ypos"      "311"
+        "ypos"      "310"
         "wide"      "60"
         "tall"      "39"
         "priority"  "40"
@@ -320,7 +320,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-120"
-        "ypos"      "384"
+        "ypos"      "390"
         "wide"      "60"
         "tall"      "39"
         "priority"  "40"
