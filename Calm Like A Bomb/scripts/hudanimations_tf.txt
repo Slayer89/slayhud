@@ -312,7 +312,7 @@ event HudHealthDyingPulse
 
     Animate PlayerStatusHealthValueCam  FgColor     "255 0 0 255"      Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "192 192 192 255"          Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "255 255 255 255"          Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueTour     FgColor     "LowColor"      Accel 0.0 0.0
 
@@ -366,7 +366,7 @@ event HudHealthDyingPulseStop
 
     Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "192 192 192 255"           Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "255 255 255 255"           Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueTour     FgColor     "234 234 234 255"       Accel 0.0 0.0
 
