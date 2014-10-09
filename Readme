@@ -8,7 +8,7 @@ Custom crosshairs by Fog. To install a random crosshair follow the instructions:
 Go to scripts/hudlayout.res ctrl+f (search for fog crosshair) change visible from "0" to "1" and replace labelText with the corresponding number/letter for the crosshair that you want. You'll have to most likely change around xpos, ypos, wide and tall to your liking.
 To set up your favourite and your match server go to Calm Like A Bomb/resource/Gamemenu.res find the lines 	"HomeServer"  and 	"FaveServer" and put your info.
 If you installed a custom crosshair and you want to turn red (or whatever color you want) when you hit someone go to scripts/hudanimations_tf (ctrl + f) search for damage and remove the // from the next two lines. The first makes it red the second returns the crosshair back to start color
-If you want to have the cross in your health go to slayhud/resource/ui and change the name of "HudPlayerHealth_with_cross.res" to "HudPlayerHealth.res" and "HudItemEffectMeter_Killstreak_with cross.res" to "HudItemEffectMeter_Killstreak.res"
+If you want to have the cross in your health go to Calm Like A Bombhud/resource/ui and change the name of "HudPlayerHealth_with_cross.res" to "HudPlayerHealth.res" and "HudItemEffectMeter_Killstreak_with cross.res" to "HudItemEffectMeter_Killstreak.res"
 
 Special thanks/credits
 Quartz and Sir Villeta, creators of HUDAS Iscariote.
