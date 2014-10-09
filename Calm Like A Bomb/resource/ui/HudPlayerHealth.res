@@ -112,87 +112,25 @@
         "draw_corner_height" "0"    
         "scaleImage"        "1"
     }
-    "HPBorderPanel1"
-    {
-        "ControlName"       "CTFImagePanel"
-        "fieldName"     "HPBackgroundPanel1"
-        "xpos"          "90"
-        "ypos"          "118"
-        "zpos"          "2"
-        "wide"          "26"
-        "tall"          "64"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible" "1" 
-        "enabled" "1"
-        "image"         "../hud/color_panel_brown"
-        "scaleImage"        "1"
-        "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
-        
-        "src_corner_height"     "40"                // pixels inside the image
-        "src_corner_width"      "40"            
-        "draw_corner_width"     "0"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"        "0" 
-    }
-    "HPBorderPanel2"
-    {
-        "ControlName"       "CTFImagePanel"
-        "fieldName"     "HPBackgroundPanel2"
-        "xpos"          "71"
-        "ypos"          "137"
-        "zpos"          "2"
-        "wide"          "64"
-        "tall"          "26"
-        "autoResize"        "0"
-        "pinCorner"     "0"
-        "visible" "1"
-        "enabled" "1"
-        "image"         "../hud/color_panel_brown"
-        "scaleImage"        "1"
-        "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
-        
-        "src_corner_height"     "40"                // pixels inside the image
-        "src_corner_width"      "40"            
-        "draw_corner_width"     "0"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"        "0" 
-    }
     "PlayerStatusHealthImage"
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthImage"
-        "xpos"          "75"
-        "ypos"          "122"
-        "zpos"          "4"
-        "wide"          "56"
-        "tall"          "56"
-        "fgcolor_override"  "0 0 0 255"
-        "visible"       "1"
-        "enabled"       "1"
-        "scaleImage"    "1"
-        "alpha"         "255"
-    }       
-    "PlayerStatusHealthImageBG"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "PlayerStatusHealthImageBG"
-        "xpos"          "73"
-        "ypos"          "120"
-        "zpos"          "3"
-        "wide"          "60"
-        "tall"          "60"
+        "xpos"          "55"
+        "ypos"          "140"
+        //"zpos"            "3"
+        "zpos"          "-5"
+        "wide"          "20"
+        "tall"          "20"
         "visible"       "0"
-        "enabled"       "0"
-        "image"         "../hud/health_bg"
+        "enabled"       "1"
         "scaleImage"    "1" 
-    }   
+    }
     "PlayerStatusHealthImageOverheal"
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "PlayerStatusHealthImageOverheal"
+        //"xpos"            "41"
         "xpos"          "4100"
         "ypos"          "138"
         "zpos"          "5"
@@ -210,6 +148,7 @@
         "fieldName"     "PlayerStatusHealthBonusImage"
         "xpos"          "71"    
         "ypos"          "120"  
+        //"ypos"          "1270"  
         "zpos"          "1"
         "wide"          "63"    
         "tall"          "63"    
@@ -250,6 +189,23 @@
         "font"      "DemiBold24"
         "fgcolor"       "0 0 0 255"
     }
+
+    "CrossSign"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "CrossSign"
+        "xpos"          "55"
+        "ypos"          "134"   
+        "zpos"          "5"
+        "wide"          "29"
+        "tall"          "28"
+        "visible"       "0"
+        "enabled"       "1"
+        "labelText"     "+"
+        "textAlignment" "center"    
+        "font"          "Book38"
+        "fgcolor"       "255 255 255 255"
+    }
     "PlayerStatusClassImageBG"
     {
         "ControlName"   "CTFImagePanel"
@@ -259,8 +215,8 @@
         "zpos"          "1"     
         "wide"          "30"
         "tall"          "4"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "image"         "../hud/color_panel_blu"
         "scaleImage"    "1" 
         "teambg_2"      "../hud/color_panel_red"
@@ -280,11 +236,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusBleedImage"
         "xpos"          "0"
-        "ypos"          "182"
+        "ypos"          "173"       //180
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"
+        "visible"       "1"     //1
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/bleed_drop"
@@ -295,11 +251,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMilkImage"
         "xpos"          "0"
-        "ypos"          "182"
+        "ypos"          "173"       //180
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"
+        "visible"       "1"     //1
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/bleed_drop"
@@ -310,11 +266,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMarkedForDeathImage"
         "xpos"          "0"
-        "ypos"          "182"
+        "ypos"          "173"       //180
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"
+        "visible"       "1"     //1
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/marked_for_death"
@@ -325,11 +281,11 @@
         "ControlName"   "ImagePanel"
         "fieldName" "PlayerStatusMarkedForDeathSilentImage"
         "xpos"          "0"
-        "ypos"          "182"
+        "ypos"          "173"       //180
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"
+        "visible"       "1"     //1
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/marked_for_death"
@@ -442,4 +398,5 @@
         "fgcolor"       "TanDark"
     }
 }
+
 
