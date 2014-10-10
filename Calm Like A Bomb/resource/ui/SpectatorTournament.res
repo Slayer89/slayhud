@@ -36,7 +36,7 @@
 				"fieldName"   "BGLeft"
 				"xpos"        "0"
 				"ypos"        "0"
-				"zpos"        "1"
+				"zpos"        "-1"
 				"wide"        "24"
 				"tall"        "14"
 				"autoResize"		"0"
@@ -101,12 +101,12 @@
 				"ypos"        "13"
 				"zpos"        "0"
 				"wide"        "76"
-				"tall"        "2"
+				"tall"        "1"
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"fillcolor"		"234 234 234 255"
 				"alpha"			"255"
-				"visible"			"0"
+				"visible"			"1"
 				"enabled"			"1"
 			}
 			"playername"
@@ -124,7 +124,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"234 234 234 255"
+				"fgcolor"		"255 255 255 255"
 
 				if_mvm
 				{

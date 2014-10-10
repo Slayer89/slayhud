@@ -98,7 +98,7 @@
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"24"
-		"fgcolor"		"White"
+		"fgcolor_override"	"White"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
