@@ -40,7 +40,7 @@
         "PaintBackgroundType"   "0"
     }
 //######################################################
-//#                   FOG CROSSHAIRS                   #
+//#                  FOG CROSSHAIRS)                   #
 //######################################################
 //
     fogCrosshair
@@ -48,7 +48,7 @@
         "controlname"   "CExLabel"
         "fieldname" "fogCrosshair"
         
-        "visible"   "0"  //Change it to "1" to enable it
+        "visible"   "1"
         "enabled"   "1"
 
 	  "zpos" "2"
@@ -141,8 +141,8 @@
         "fieldName"     "HudMedicCharge"
         "visible" "1"
         "enabled" "1"
-        "xpos"          "0" 
-        "ypos"          "r150"
+        "xpos"          "c-110" 
+        "ypos"          "c65"
         "wide"          "f0"
         "tall"          "f0"
         "MeterFG"       "White"
