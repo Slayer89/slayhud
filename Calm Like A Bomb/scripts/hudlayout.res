@@ -296,7 +296,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-120"
-        "ypos"      "310"
+        "ypos"      "292"
         "wide"      "60"
         "tall"      "39"
         "priority"  "40"
@@ -320,7 +320,7 @@
         "visible"   "0"
         "enabled"   "1"
         "xpos"      "c-120"
-        "ypos"      "390"
+        "ypos"      "412"
         "wide"      "60"
         "tall"      "39"
         "priority"  "40"
@@ -914,7 +914,7 @@
     FreezePanel
     {
         "fieldName"             "FreezePanel"
-        "visible"               "1"
+        "visible"               "0"
         "enabled"               "1"
         "xpos"                  "0"
         "ypos"                  "0"
