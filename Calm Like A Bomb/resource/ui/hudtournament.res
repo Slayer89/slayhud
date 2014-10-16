@@ -338,7 +338,7 @@
 		"fieldName"		"BlueBGShade"
 		"xpos"			"0"
 		"ypos"			"30"
-		"zpos"			"-2"
+		"zpos"			"0"
 		"wide"			"16"
 		"tall"			"16"
 		"autoResize"	"0"
@@ -346,7 +346,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 255 255"
+		"fillcolor"		"0 0 200 155"
 		"PaintBackgroundType"	"0"
 		if_mvm
 		{
@@ -360,7 +360,7 @@
 		"fieldName"		"ShadedBarBlue"
 		"xpos"			"17"
 		"ypos"			"30"
-		"zpos"			"-1"
+		"zpos"			"0"
 		"wide"			"107"
 		"tall"			"16"
 		"autoResize"	"0"
@@ -368,7 +368,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 255 255"
+		"fillcolor"		"0 0 200 155"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -431,7 +431,7 @@
 		"fieldName"		"ShadedBarRed"
 		"xpos"			"125"
 		"ypos"			"30"
-		"zpos"			"-1"
+		"zpos"			"0"
 		"wide"			"107"
 		"tall"			"16"
 		"autoResize"	"0"
@@ -439,7 +439,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 0 0 255"
+		"fillcolor"		"200 0 0 155"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
@@ -454,7 +454,7 @@
 		"fieldName"		"RedBG"
 		"xpos"			"233"
 		"ypos"			"30"
-		"zpos"			"-1"
+		"zpos"			"0"
 		"wide"			"16"
 		"tall"			"16"
 		"visible"		"1"
@@ -479,7 +479,7 @@
 		"fieldName"		"RedBGShade"
 		"xpos"			"233"
 		"ypos"			"30"
-		"zpos"			"-2"
+		"zpos"			"0"
 		"wide"			"16"
 		"tall"			"16"
 		"autoResize"	"0"
@@ -487,7 +487,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"255 0 0 255"
+		"fillcolor"		"200 0 0 155"
 		"PaintBackgroundType"	"0"
 		if_mvm
 		{
@@ -549,7 +549,7 @@
 		"fieldName"		"ShadedBarConditions"
 		"xpos"			"0"
 		"ypos"			"47"
-		"zpos"			"-1"
+		"zpos"			"0"
 		"wide"			"249"
 		"tall"			"8"
 		"autoResize"	"0"
@@ -557,7 +557,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 255"
+		"fillcolor"		"10 10 10 155"
 		"PaintBackgroundType"	"0"
 		
 		if_mvm
