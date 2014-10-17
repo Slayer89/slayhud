@@ -33,7 +33,24 @@
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"west"
-		"fgcolor"		"DamageStatic"
+		"fgcolor"		"Damagefloating"
+		"font"			"DemiBold20"
+	}
+	"DamageAccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValueShadow"
+		"xpos"			"c-129"
+		"ypos"			"r142"
+		"zpos"			"0"
+		"wide"			"100"
+		"tall"			"29"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"delta_lifetime"		"10.0"
+		"textAlignment"	"west"
+		"fgcolor"		"black"
 		"font"			"DemiBold20"
 	}
 }
