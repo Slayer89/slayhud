@@ -47,34 +47,16 @@
     {
         "controlname"   "CExLabel"
         "fieldname" "fogCrosshair"
-        
         "visible"   "0"
         "enabled"   "1"
-
 	  "zpos" "2"
-
 	  "xpos" "c-102"
 	  "ypos" "c-99"
 	  "wide" "200"
 	  "tall" "200"
-
         "font"      "fogCrosshairSmall"
-        //
-        // Choose what kind
-        //
-        // "fogCrosshair"         - Pixelated and outlined
-        // "fogCrosshairSmall"    - Pixelated and not outlined
-        // "fogCrosshairSmooth"   - Antialiased, not outlined
-        
-
         "labeltext" "v"
-        //
-        // Choose your crosshair
-        // 
-        // Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
-
         "textAlignment" "center"
-        
         "fgcolor"   "255 255 255 255"
     }
 
