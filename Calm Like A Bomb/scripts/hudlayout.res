@@ -77,6 +77,23 @@
         
         "fgcolor"   "0 255 0 255"
     }
+	"Seeker's Crosshair"
+	{
+        	"controlname"	"CExLabel"
+		"fieldname"	"Seeker's Crosshair"
+        	"textAlignment"	"center"
+		"xpos"		"c-27"
+		"ypos"		"c-25"
+		"zpos"		"-2"
+		"wide"		"50"
+		"tall"		"50"
+        	"visible"	"0"
+        	"enabled"	"1" 
+		"labeltext"	"x"          					
+        	"font"		"seeker12"						
+        	"fgcolor"	"255 255 255 255" 
+	}
+
     HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"
