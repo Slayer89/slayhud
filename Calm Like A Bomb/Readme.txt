@@ -8,7 +8,7 @@ Custom crosshairs by Fog and seekers. To enable a random crosshair follow the in
 (1)Go to scripts/hudlayout.res ctrl+f (search for fogCrosshair) change visible from "0" to "1" and replace labelText with the corresponding number/letter for the crosshair that you want. You'll have to most likely change around xpos, ypos, wide and tall to your liking.
 (2)Go to scripts/hudlayout.res ctrl+f (search for Seeker's Crosshair) change visible from "0" to "1". You might have to most likely change around xpos, ypos, wide and tall to your liking.
 To set up your favourite and your match server go to Calm Like A Bomb/resource/Gamemenu.res find the lines 	"HomeServer"  and 	"FaveServer" and put your info.
-If you installed a custom crosshair and you want to turn red (or whatever color you want) when you hit someone go to scripts/hudanimations_tf (ctrl + f) search for damage and remove the // from the next two lines. The first makes it red the second returns the crosshair back to start color
+If you installed a custom crosshair and you want to turn red (or whatever color you want) when you hit someone go to scripts/hudanimations_tf (ctrl + f) search for damage and remove the // from the lines of the crosshair you use fogCrosshair or SeekerCrosshair. The first makes it red the second returns the crosshair back to start color
 If you want to have the cross in your health go to Calm Like A Bombhud/resource/ui and change the name of "HudPlayerHealth_with_cross.res" to "HudPlayerHealth.res" and "HudItemEffectMeter_Killstreak_with cross.res" to "HudItemEffectMeter_Killstreak.res"
 
 Special thanks/credits

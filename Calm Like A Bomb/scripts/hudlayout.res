@@ -63,7 +63,7 @@
         // Choose what kind
         //
         // "fogCrosshair"         - Pixelated and outlined
-        // "fogCrosshairPlain"    - Pixelated and not outlined
+        // "fogCrosshairSmall"    - Pixelated and not outlined
         // "fogCrosshairSmooth"   - Antialiased, not outlined
         
 
@@ -75,23 +75,24 @@
 
         "textAlignment" "center"
         
-        "fgcolor"   "0 255 0 255"
+        "fgcolor"   "255 255 255 255"
     }
-	"Seeker's Crosshair"
+
+	SeekerCrosshair
 	{
         	"controlname"	"CExLabel"
-		"fieldname"	"Seeker's Crosshair"
+		"fieldname"		"SeekerCrosshair"
         	"textAlignment"	"center"
 		"xpos"		"c-27"
 		"ypos"		"c-25"
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"50"
-        	"visible"	"0"
-        	"enabled"	"1" 
-		"labeltext"	"x"          					
+        	"visible"		"0"
+        	"enabled"		"1"		
+		"labeltext"		"x"          					
         	"font"		"seeker12"						
-        	"fgcolor"	"255 255 255 255" 
+        	"fgcolor"		"255 255 255 255" 
 	}
 
     HudPlayerStatus
