@@ -120,7 +120,81 @@
 			}
 		}
 	}	
+	"AvatarImage"
+    {
+         "ControlName" "CAvatarImagePanel"
+         "fieldName"     "AvatarImage"
+         "xpos"       "4"
+         "ypos"       "4"
+         "zpos"       "0"
+         "wide"       "30"
+         "tall"        "30"
+         "visible"       "1"
+         "enabled"      "1"
+         "image"      ""
+         "scaleImage"      "1"
+         "color_outline"      "32 32 32 255"
+    }
+    "TopLeftDataPanel"
+    {
+        "ControlName" "EditablePanel"
+        "fieldName"   "TopLeftDataPanel"
+        "xpos"       "-3"
+        "ypos"       "10"
+        "zpos"       "0"
+        "wide"       "160"
+        "tall"           "65"
+        "visible"       "1"
+        "PaintBackgroundType"    "2"
+        "bgcolor_override"        "0 0 0 0"
+
+        "WelcomeLabel"
+        {
+            "ControlName" "CExLabel"
+            "fieldName"     "WelcomeLabel"
+		"font"			"DemiBold14"
+            "labelText"       "#WelcomeBack"
+            "textAlignment"       "west"
+            "xpos"         "45"
+            "ypos"         "1"
+            "wide"         "160"
+            "tall"             "15"
+            "autoResize"      "0"
+            "pinCorner"      "0"
+            "visible"         "1"
+            "enabled"          "1"
+			"fgcolor_override"      "0 0 0 200"
+        }
+    }	
 	
+	"WelcomeBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"WelcomeBG"
+		"xpos"			"0"
+		"ypos"			"10"
+		"zpos"			"-8"
+		"wide"			"197"
+		"tall"			"18"	
+		"fillcolor"		"White"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	"AvatarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AvatarBG"
+		"xpos"			"3"
+		"ypos"			"2"
+		"zpos"			"-8"
+		"wide"			"34"
+		"tall"			"34"	
+		"fillcolor"		"White"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
