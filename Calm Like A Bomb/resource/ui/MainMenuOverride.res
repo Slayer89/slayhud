@@ -2165,7 +2165,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"-10"
-			"ypos"			"0"
+			"ypos"			"8"
 			"wide"			"223"
 			"tall"			"30"
 			"autoResize"	"0"
