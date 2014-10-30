@@ -73,7 +73,7 @@
         	"visible"		"0"
         	"enabled"		"1"		
 		"labeltext"		"x"          					
-        	"font"		"seeker12"						
+        	"font"		"seeker10"						
         	"fgcolor"		"255 255 255 255" 
 	}
 
@@ -1397,6 +1397,16 @@
 		"wide"			"250"
 		"tall"			"195"
 		"PaintBackgroundType"	"0"
+	}
+	HudMiniGame
+	{
+		"fieldName"					"HudMiniGame"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
 	}
 }
 

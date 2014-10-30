@@ -280,11 +280,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusBleedImage"
         "xpos"          "0"
-        "ypos"          "173"       //180
+        "ypos"          "182"
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"     //1
+        "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/bleed_drop"
@@ -295,11 +295,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMilkImage"
         "xpos"          "0"
-        "ypos"          "173"       //180
+        "ypos"          "182"
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"     //1
+        "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/bleed_drop"
@@ -310,11 +310,11 @@
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusMarkedForDeathImage"
         "xpos"          "0"
-        "ypos"          "173"       //180
+        "ypos"          "182"
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"     //1
+        "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/marked_for_death"
@@ -325,11 +325,11 @@
         "ControlName"   "ImagePanel"
         "fieldName" "PlayerStatusMarkedForDeathSilentImage"
         "xpos"          "0"
-        "ypos"          "173"       //180
+        "ypos"          "182"
         "zpos"          "7"
         "wide"          "25"
         "tall"          "25"
-        "visible"       "1"     //1
+        "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1" 
         "image"         "../vgui/marked_for_death"
@@ -339,9 +339,9 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_WheelOfDoom"
-        "xpos"          "52"
-        "ypos"          "70"
-        "zpos"          "7"
+        "xpos"          "0"
+        "ypos"          "98"
+        "zpos"          "100"
         "wide"          "32"
         "tall"          "32"
         "visible"       "1"
