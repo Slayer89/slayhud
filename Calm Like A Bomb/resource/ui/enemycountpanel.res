@@ -82,4 +82,3 @@
 		"labelText"		"%enemy_count%"
 	}
 }
-
