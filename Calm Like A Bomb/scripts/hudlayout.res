@@ -70,13 +70,17 @@
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"50"
-        	"visible"		"0"
+        	"visible"		"1"
         	"enabled"		"1"		
 		"labeltext"		"x"          					
         	"font"		"seeker10"						
         	"fgcolor"		"255 255 255 255" 
 	}
-
+//
+//###################
+//#END OF CROSSHAIRS#
+//###################
+//
     HudPlayerStatus
     {
         "fieldName" "HudPlayerStatus"
@@ -1408,5 +1412,27 @@
 		"wide"						"f0"
 		"tall"						"480"
 	}
-}
 
+	"QuestNotificationPanel"
+	{
+		"fieldName"		"QuestNotificationPanel"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+	}
+
+	"QuestLogContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName" 	"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+}

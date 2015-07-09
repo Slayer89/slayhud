@@ -295,9 +295,9 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatus_WheelOfDoom"
-        "xpos"          "0"
-        "ypos"          "98"
-        "zpos"          "100"
+        "xpos"          "52"
+        "ypos"          "70"
+        "zpos"          "7"
         "wide"          "32"
         "tall"          "32"
         "visible"       "1"

@@ -46,11 +46,13 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_center_x"	"1"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
+			"model_wide"		"82"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -211,7 +213,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_manip"	"1"
+		"allow_rot"	"1"
 				
 		"model"
 		{
@@ -295,17 +297,54 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"2"
-		"paintborder"	"1"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
 		
-		"text_ypos"			"0"
+		"text_ypos"			"15"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
-		"padding_height"	"30"
+		"padding_height"	"15"
+		
+		"BG"
+    	{
+    		"ControlName"		"EditablePanel"
+    		"fieldName"			"BG"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+			"pinCorner"			"0"
+			"autoResize"		"0"
+			"PaintBackgroundType""1"
+			"border"			"NoBorder"
+			"bgcolor_override"	"55 55 55 250"
+		
+			"attriblabel"
+			{
+				"font"			"ItemFontAttribLarge"
+				"xpos"			"0"
+				"ypos"			"30"
+				"zpos"			"999"
+				"wide"			"140"
+				"tall"			"60"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"%attriblist%"
+				"textAlignment"	"center"
+				"fgcolor"		"117 107 94 255"
+				"centerwrap"	"1"
+			}
+		}
 	}
 	
+
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"

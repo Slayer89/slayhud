@@ -41,13 +41,14 @@
 //
 //  SetString <panel name> <string varname> <stringvalue> <set time>
 
+
 event DamagedPlayer
 {
          //Animate fogCrosshair         FgColor         "255 0 0 255"         Linear 0.0 0.00001
          //Animate fogCrosshair         FgColor         "255 255 255 255"         Linear 0.20 0.10001
 
-		 //Animate SeekerCrosshair  FgColor          "255 0 0 255" 	Linear 0.0 0.00001
-		 //Animate SeekerCrosshair  FgColor          "255 255 255 255" 	Linear 0.20 0.10001
+		 Animate SeekerCrosshair  FgColor          "255 0 0 255" 	Linear 0.0 0.00001
+		 Animate SeekerCrosshair  FgColor          "255 255 255 255" 	Linear 0.20 0.10001
 
         // Set the second line ("255 255 255 255") to whatever color you have changed
         // your crosshair to be. So if you crosshair is green, the second line should
@@ -62,7 +63,6 @@ event DamagedPlayer
         //
         //
 }
-
 event LevelInit
 {
 }
@@ -233,9 +233,9 @@ event HudHealthBonusPulse
     Animate ShadedBarThinBuff   Alpha       "255"           Accel 0.0 0.0
     Animate PlayerStatusHealthImageOverheal     Alpha       "255"           Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueCam  FgColor     "0 255 0 255"           Accel 0.0 0.0
+    Animate PlayerStatusHealthValueCam  FgColor     "BuffedColor"           Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "0 255 0 255"              Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "32 32 32 255"              Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueTour     FgColor     "BuffedColor"           Accel 0.0 0.0
 
@@ -279,16 +279,16 @@ event HudHealthBonusPulseStop
         StopEvent xHairCircle 0.0
         StopEvent xHairDotOutline 0.0
 
-        Animate PlayerStatusHealthValue     FgColor     "234 234 234 255"       Accel 0.0 0.0
+    Animate PlayerStatusHealthValue     FgColor     "234 234 234 255"       Accel 0.0 0.0
     Animate PlayerStatusHealthImageOverheal     Alpha       "0"         Accel 0.0 0.0
     Animate ShadedBarThin   Alpha       "255"           Accel 0.0 0.0
     Animate ShadedBarThinBuff   Alpha       "0"         Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
+        Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "234 234 234 255"       Accel 0.0 0.0
+        Animate PlayerStatusHealthValueSpec     FgColor     "234 234 234 255"       Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueTour     FgColor     "0 0 0 255"       Accel 0.0 0.0
+        Animate PlayerStatusHealthValueTour     FgColor     "234 234 234 255"       Accel 0.0 0.0
 
     Animate xHairNormal             FgColor     "234 234 234 255"       Accel 0.0 0.0
 
@@ -313,9 +313,9 @@ event HudHealthDyingPulse
     Animate PlayerStatusHealthImageOverheal5    Alpha       "135"           Accel 0.0 0.0
 
 
-    Animate PlayerStatusHealthValueCam  FgColor     "255 0 0 255"      Accel 0.0 0.0
+    Animate PlayerStatusHealthValueCam  FgColor     "LowColor"      Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "255 255 255 255"          Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "32 32 32 255"          Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueTour     FgColor     "LowColor"      Accel 0.0 0.0
 
@@ -360,7 +360,7 @@ event HudHealthDyingPulseStop
     StopEvent xHairCircle 0.0
     StopEvent xHairDot 0.0
 
-    Animate PlayerStatusHealthValue     FgColor     "192 192 192 255"           Accel 0.0 0.0
+    Animate PlayerStatusHealthValue     FgColor     "234 234 234 255"           Accel 0.0 0.0
     Animate PlayerStatusHealthValue     Position        "70 135"            Accel 0.0 0.0
     Animate ShadedBarThin   Alpha       "255"           Accel 0.0 0.0
     Animate ShadedBarThinLow    Alpha       "0"         Accel 0.0 0.0
@@ -369,7 +369,7 @@ event HudHealthDyingPulseStop
 
     Animate PlayerStatusHealthValueCam  FgColor     "234 234 234 255"       Accel 0.0 0.0
 
-    Animate PlayerStatusHealthValueSpec     FgColor     "255 255 255 255"           Accel 0.0 0.0
+    Animate PlayerStatusHealthValueSpec     FgColor     "234 234 234 255"           Accel 0.0 0.0
 
     Animate PlayerStatusHealthValueTour     FgColor     "234 234 234 255"       Accel 0.0 0.0
 
@@ -388,7 +388,7 @@ event HudLowAmmoPulse
 {
     Animate HudWeaponLowAmmoImage       Alpha       "255"               Linear 0.0 0.075
     Animate HudWeaponLowAmmoImage       Alpha       "0"         Linear 0.125 0.075
-    Animate AmmoInReserve   FgColor       "Low-Ammo Warning 1"  Linear 0.0 0.075
+
     Animate ShadedBarThinlow            Alpha       "255"       Accel 0.0 0.0
     Animate ShadedBarThin           Alpha       "0"     Accel 0.0 0.0
     Animate AmmoInClip              FgColor     "LowColor"      Accel 0.0 0.0
@@ -416,12 +416,11 @@ event HudLowAmmoPulseStop
     StopEvent AmmoInReserve 0.0
     StopEvent AmmoNoClip 0.0
 
-    Animate AmmoInClip                  FgColor     "192 192 192 255"       Accel 0.0 0.0
+    Animate AmmoInClip                  FgColor     "234 234 234 255"       Accel 0.0 0.0
     Animate ShadedBarThinlow            Alpha       "0"     Accel 0.0 0.0
     Animate ShadedBarThin           Alpha       "255"       Accel 0.0 0.0
 
-    Animate AmmoInReserve   FgColor     "Ammo in Reserve"       Linear 0.0 0.0
-    Animate AmmoNoClip                  FgColor     "192 192 192 255"      Accel 0.0 0.0
+    Animate AmmoNoClip                  FgColor     "234 234 234 255"      Accel 0.0 0.0
 }
 
 //===========================================
@@ -511,17 +510,15 @@ event HudSpyDisguiseHide
 event HudSpyDisguiseFadeIn
 {
     Animate PlayerStatusSpyImage            Alpha       "255"           Linear 0.9 0.1
-    Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0  
-    Animate classmodelpanel          Position       "110 r175"           Linear 0.0 0.0  
+    Animate PlayerStatusClassImage          Alpha       "255"           Linear 0.0 0.0   
+    Animate classmodelpanel          		Position    "110 r175"      Linear 0.0 0.0  
 }
 
 event HudSpyDisguiseFadeOut
 {
     Animate PlayerStatusSpyImage            Alpha       "0"         Linear 0.9 0.1  
-    Animate PlayerStatusClassImage          Alpha       "0"         Linear 0.0 0.0
-
-    Animate classmodelpanel          Position       "1 335"           Linear 0.0 0.0  
-
+    Animate PlayerStatusClassImage          Alpha       "0"         Linear 0.0 0.0 
+    Animate classmodelpanel          		Position    "1 335"     Linear 0.0 0.0  
 }
 
 //===========================================
@@ -894,6 +891,15 @@ event NotificationsPresentBlinkStop
     Animate NotificationsPresentPanel   Alpha       "255"       Linear 0.0 0.1
 }
 
+//===========================================
+
+event DamagedPlayer
+{
+    // empty
+}
+
+//===========================================
+
 event SpyWarningFlash
 {
     Animate EnemyCountImageBG   BgColor "RedSolid"      Linear 0.0 0.01
@@ -933,3 +939,118 @@ event HudReadyPulseEnd
     StopEvent HudReadyPulse         0.0
     StopEvent HudReadyPulseLoop     0.0
 }
+
+// Respec in Win
+event RespecEarnedPulse
+{
+	Animate	RespecTextLabelWin	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelWin	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoop		0.5
+}
+
+event RespecEarnedPulseLoop
+{
+	RunEvent RespecEarnedPulse			0.0
+}
+
+event RespecEarnedPulseEnd
+{
+	Animate	RespecTextLabelWin 	FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulse			0.0
+	StopEvent RespecEarnedPulseLoop		0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+	Animate	RespecTextLabelLoss	FgColor	"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss	FgColor	"RedSolid"		Linear 0.3 0.4
+	
+	RunEvent RespecEarnedPulseLoopLoss		0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+	RunEvent RespecEarnedPulseLoss			0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	RespecTextLabelLoss FgColor		"TanLight"		Linear 0.0 0.1
+	
+	StopEvent RespecEarnedPulseLoss		0.0
+	StopEvent RespecEarnedPulseLoopLoss	0.0
+}
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"25 255 25 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 75 75 255"		Linear 0.0 0.0
+	Animate Score FgColor	"TanLight"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event QuestNotification_Present
+{
+	Animate MainContainer Position	"r0 94"		Deaccel 0		0
+	Animate MainContainer Position	"r115 94"		Deaccel	0.01	0.4
+}
+
+event QuestNotification_Hide
+{
+	Animate MainContainer Position	"r115 94"		Deaccel	0		0
+	Animate MainContainer Position	"r0 94"		Deaccel 0.01	0.4
+}
+
+event ItemCard_ShowPinHint
+{
+	Animate PinLabel Position	"0 -20"	Deaccel	0	0
+
+	Animate PinLabel FgColor	"TanLight"	Linear 0.2 0
+	Animate PinLabel Position	"0 0"	Deaccel 0.2	0.2
+}
+
+event ItemCard_HidePinHint
+{
+	Animate PinLabel Position	"0 5"	Deaccel	0	0.3
+
+	Animate PinLabel Position	"0 -20"	Accel 0.3	0.1
+}
+
+event ItemCard_ShowCloseButton
+{
+	Animate CloseButton Position	"-8 -68"	Deaccel	0	0.3
+
+	Animate CloseButton Position	"-8 -68"	Accel 0.3	0.1
+}
+
+event ItemCard_HideCloseButton
+{
+	Animate CloseButton Position	"-30 -90"	Deaccel	0	0.0
+}
+
+event QuestItem_StaticPhoto_Reveal
+{
+	Animate StaticPhoto Alpha	"0"	Accel		0	2
+}
+
+//

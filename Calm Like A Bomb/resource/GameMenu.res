@@ -74,7 +74,7 @@
 	"FaveServer"
 	{
 		"label" "Favourite"
-		"command" "engine connect youriphere"
+		"command" "engine connect 5.9.73.89:27015"
         "tooltip" "Favourite Server"
 	}
 	"ToggleScoreboard"
