@@ -1132,7 +1132,7 @@
 		"Kills"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Kills2"
 			"font"			"Museo28"
 			"labelText"		"%kills%"
 			"textAlignment"	"east"
@@ -1204,7 +1204,7 @@
 		"Deaths"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths2"
 			"font"			"Museo28"
 			"labelText"		"%deaths%"
 			"textAlignment"	"west"
@@ -1253,7 +1253,7 @@
 		"Assists"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists2"
 			"font"			"Museo10"
 			"labelText"		"%assists%"
 			"fgcolor"		"255 255 255 255"
@@ -1301,7 +1301,7 @@
 		"Captures"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures2"
 			"font"		"Museo10"
 			"labelText"		"%captures%"
 			"fgcolor"		"255 255 255 255"
@@ -1349,7 +1349,7 @@
 		"Defenses"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defenses2"
 			"font"		"Museo10"
 			"labelText"		"%defenses%"
 			"fgcolor"		"255 255 255 255"
@@ -1397,7 +1397,7 @@
 		"Domination"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination2"
 			"font"		"Museo10"
 			"labelText"		"%dominations%"
 			"fgcolor"		"255 255 255 255"
@@ -1445,7 +1445,7 @@
 		"Revenge"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenge2"
 			"font"		"Museo10"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"255 255 255 255"
@@ -1493,7 +1493,7 @@
 		"Destruction"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destruction2"
 			"font"		"Museo10"
 			"labelText"		"%destruction%"
 			"fgcolor"		"255 255 255 255"
@@ -1541,7 +1541,7 @@
 		"Healing"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healing2"
 			"font"		"Museo10"
 			"labelText"		"%healing%"
 			"fgcolor"		"255 255 255 255"
@@ -1589,7 +1589,7 @@
 		"Invuln"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invuln2"
 			"font"		"Museo10"
 			"labelText"		"%invulns%"
 			"fgcolor"		"255 255 255 255"
@@ -1637,7 +1637,7 @@
 		"Headshots"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshots2"
 			"font"		"Museo10"
 			"labelText"		"%headshots%"
 			"fgcolor"		"255 255 255 255"
@@ -1685,7 +1685,7 @@
 		"Backstabs"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabs2"
 			"font"		"Museo10"
 			"labelText"		"%backstabs%"
 			"fgcolor"		"255 255 255 255"
@@ -1733,7 +1733,7 @@
 		"Teleports"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleports2"
 			"font"		"Museo10"
 			"labelText"		"%teleports%"
 			"fgcolor"		"255 255 255 255"
@@ -1781,7 +1781,7 @@
 		"Bonus"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonus2"
 			"font"		"Museo10"
 			"labelText"		"%bonus%"
 			"fgcolor"		"32 32 32 255"
@@ -1829,7 +1829,7 @@
 		"Damage"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"Damage2"
 			"font"		"Museo10"
 			"labelText"		"%damage%"
 			"fgcolor"		"255 255 255 255"
