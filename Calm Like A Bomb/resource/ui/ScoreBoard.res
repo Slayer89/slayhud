@@ -1129,7 +1129,7 @@
 				"visible"		"0"
 			}
 		}
-		"Kills"
+		"Kills2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Kills2"
@@ -1201,7 +1201,7 @@
 				"visible"		"0"
 			}
 		}
-		"Deaths"
+		"Deaths2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Deaths2"
@@ -1250,7 +1250,7 @@
 				"ypos"		"r172"
 			}
 		}
-		"Assists"
+		"Assists2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Assists2"
@@ -1298,7 +1298,7 @@
 				"ypos"		"r162"
 			}
 		}
-		"Captures"
+		"Captures2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures2"
@@ -1346,7 +1346,7 @@
 				"ypos"		"r152"
 			}
 		}
-		"Defenses"
+		"Defenses2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses2"
@@ -1394,7 +1394,7 @@
 				"ypos"		"r142"
 			}
 		}
-		"Domination"
+		"Domination2"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination2"
@@ -1442,7 +1442,7 @@
 				"ypos"		"r132"
 			}
 		}
-		"Revenge"
+		"Revenge2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge2"
@@ -1490,7 +1490,7 @@
 				"ypos"		"r122"
 			}
 		}
-		"Destruction"
+		"Destruction2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction2"
@@ -1538,7 +1538,7 @@
 				"ypos"		"r172"
 			}
 		}		
-		"Healing"
+		"Healing2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing2"
@@ -1586,7 +1586,7 @@
 				"ypos"		"r162"
 			}
 		}
-		"Invuln"
+		"Invuln2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln2"
@@ -1634,7 +1634,7 @@
 				"ypos"		"r152"
 			}
 		}
-		"Headshots"
+		"Headshots2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots2"
@@ -1682,7 +1682,7 @@
 				"ypos"		"r142"
 			}
 		}
-		"Backstabs"
+		"Backstabs2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs2"
@@ -1730,7 +1730,7 @@
 				"ypos"		"r132"
 			}
 		}
-		"Teleports"
+		"Teleports2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports2"
@@ -1778,7 +1778,7 @@
 				"ypos"		"r122"
 			}
 		}
-		"Bonus"
+		"Bonus2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus2"
@@ -1826,7 +1826,7 @@
 				"ypos"		"r122"
 			}
 		}
-		"Damage"
+		"Damage2"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage2"
