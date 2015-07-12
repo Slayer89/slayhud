@@ -70,7 +70,7 @@
 		"zpos"		"-2"
 		"wide"		"50"
 		"tall"		"50"
-        	"visible"		"1"
+        	"visible"		"0"
         	"enabled"		"1"		
 		"labeltext"		"x"          					
         	"font"		"seeker10"						
