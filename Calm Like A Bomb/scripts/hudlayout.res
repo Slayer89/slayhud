@@ -45,37 +45,54 @@
 //
     fogCrosshair
     {
-        "controlname"   "CExLabel"
-        "fieldname" "fogCrosshair"
-        "visible"   "0"
-        "enabled"   "1"
-	  "zpos" "2"
-	  "xpos" "c-102"
-	  "ypos" "c-99"
-	  "wide" "200"
-	  "tall" "200"
-        "font"      "fogCrosshairSmall"
-        "labeltext" "v"
-        "textAlignment" "center"
-        "fgcolor"   "255 255 255 255"
+       "controlname"   	"CExLabel"
+       "fieldname" 		"fogCrosshair"
+       "visible"   		"0"
+       "enabled"   		"1"
+	   "zpos" 			"2"
+	   "xpos" 			"c-102"
+	   "ypos" 			"c-99"
+	   "wide" 			"200"
+	   "tall" 			"200"
+       "font"      		"fogCrosshairSmall"
+       "labeltext" 		"v"
+       "textAlignment" 	"center"
+       "fgcolor"   		"255 255 255 255"
     }
 
 	SeekerCrosshair
 	{
-        	"controlname"	"CExLabel"
+        "controlname"	"CExLabel"
 		"fieldname"		"SeekerCrosshair"
-        	"textAlignment"	"center"
-		"xpos"		"c-27"
-		"ypos"		"c-25"
-		"zpos"		"-2"
-		"wide"		"50"
-		"tall"		"50"
-        	"visible"		"0"
-        	"enabled"		"1"		
+        "textAlignment"	"center"
+		"xpos"			"c-27"
+		"ypos"			"c-25"
+		"zpos"			"-2"
+		"wide"			"50"
+		"tall"			"50"
+        "visible"		"1"
+        "enabled"		"1"		
 		"labeltext"		"x"          					
-        	"font"		"seeker10"						
-        	"fgcolor"		"255 255 255 255" 
+        "font"		"seeker10"						
+        "fgcolor"		"255 255 255 255" 
 	}
+
+    KnucklesCrosses
+    {
+        "controlName"                                   "CExLabel"
+        "fieldName"                                     "KnucklesCrosses"
+        "visible"                                       "0"
+        "enabled"                                       "1"
+        "zpos"                                          "1"
+        "xpos"                                          "c-25"
+        "ypos"                                          "c-25"
+        "wide"                                          "50"
+        "tall"                                          "50"
+        "font"                                          "size:20,outline:off"
+        "labelText"                                     "L"
+        "textAlignment"                                 "center"
+        "fgcolor"                                       "255 255 255 255"
+    }
 //
 //###################
 //#END OF CROSSHAIRS#
