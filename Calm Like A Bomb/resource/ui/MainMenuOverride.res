@@ -369,12 +369,12 @@
 			"auto_wide_tocontents" "1"
 		}
 	}	
-	
+
 	"CreateServerButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"5"
+		"xpos"			"15"
 		"ypos"			"r39"
 		"zpos"			"10"
 		"wide"			"20"
@@ -385,7 +385,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"0"
+			"xpos"			"-5"
 			"ypos"			"0"
 			"wide"			"20"
 			"tall"			"20"
@@ -427,8 +427,79 @@
 			}				
 		}		
 	}
-	
-	"MOTD_ShowButtonPanel"
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"xpos"			"175"
+		"ypos"			"440"
+		"zpos"			"10"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navUp"			"Notifications_Panel"
+		"navLeft"		"SettingsButton"
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"labelText"		""
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"command"		"questlog"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"255 255 255 255"
+			"image_armedcolor" "255 255 255 255" //	"25 225 74 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"button_quests"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}	
+	}
+		"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
@@ -2399,7 +2470,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"166"
+		"xpos"			"150"
 		"ypos"			"r39"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2513,7 +2584,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"141"
+		"xpos"			"130"
 		"ypos"			"r40"
 		"zpos"			"12"
 		"wide"			"26"
@@ -2600,7 +2671,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"NewUserForumsButton"
-		"xpos"			"27"
+		"xpos"			"30"
 		"ypos"			"r40"
 		"zpos"			"3"
 		"wide"			"29"
@@ -2649,7 +2720,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"AchievementsButton"
-		"xpos"			"71"
+		"xpos"			"70"
 		"ypos"			"r40"
 		"zpos"			"3"
 		"wide"			"20"
@@ -2696,7 +2767,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CommentaryButton"
-		"xpos"			"95"
+		"xpos"			"90"
 		"ypos"			"r39"
 		"zpos"			"4"
 		"wide"			"30"
@@ -2744,7 +2815,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CoachPlayersButton"
-		"xpos"			"118"
+		"xpos"			"110"
 		"ypos"			"r39"
 		"zpos"			"5"
 		"wide"			"26"
@@ -2792,7 +2863,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"ReportBugButton"
-		"xpos"			"43"
+		"xpos"			"45"
 		"ypos"			"r39"
 		"zpos"			"1"
 		"wide"			"30"
@@ -3883,7 +3954,7 @@
 					"paintbackground"	"1"
 			
 					"defaultBgColor_override" "234 234 234 255"
-					"armedBgColor_override" "0 221 255 255"
+					"armedBgColor_override" "BuffedColor"
 					"depressedBgColor_override" "234 234 234 255"
 					"defaultFgColor_override" "32 32 32 255"
 					"armedFgColor_override" "32 32 32 255"
