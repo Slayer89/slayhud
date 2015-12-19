@@ -120,6 +120,47 @@
 			}
 		}
 	}	
+	"mouseoveritempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"1"
+		"border"		"MainMenuBGBorder"
+		
+		"text_ypos"			"20"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"15"
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"117 107 94 255"
+			"centerwrap"	"1"
+		}
+	}
+
 	"AvatarImage"
     {
          "ControlName" "CAvatarImagePanel"
@@ -396,7 +437,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -498,6 +539,57 @@
 				"keyboardinputenabled" "0"
 			}		
 		}	
+		"NotificationsContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"NotificationsContainer"
+			"xpos"			"rs1"
+			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+			"keyboardinputenabled" "0"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"3"
+				"wide"			"16"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"glyph_achievements"
+				"scaleImage"	"1"
+				"drawcolor" "210 125 33 255"
+				"proportionaltoparent"	"1"
+			}				
+		
+			"Notifications_CountLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"Notifications_CountLabel"
+				"font"			"HudFontSmallestBold"
+				"labelText"		"%noticount%"
+				"textAlignment"	"center"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"4"
+				"wide"			"16"
+				"tall"			"16"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fgcolor_override"	"255 255 255 255"
+				"proportionaltoparent"	"1"
+			}
+		}
 	}
 		"MOTD_ShowButtonPanel"
 	{
@@ -589,7 +681,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"MOTD_HeaderLabel"
-				"font"			"hudfontsmallbold_bw"
+				"font"			"hudfontsmallbold"
 				"textAlignment"	"center"
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
@@ -621,7 +713,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -677,7 +769,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"MOTD_TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"%motdtitle%"
 			"textAlignment"	"west"
 			"xpos"			"10"
@@ -846,7 +938,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -890,7 +982,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1050,7 +1142,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1089,7 +1181,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Notifications_TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"%notititle%"
 			"textAlignment"	"north-west"
 			"xpos"			"12"
@@ -1752,7 +1844,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CustomizeLabel"
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"labelText"		"#MMenu_Customize"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -1783,7 +1875,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreateLabel"
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"labelText"		"#MMenu_Create"
 		"textAlignment"	"west"
 		"xpos"			"c-278"
@@ -1875,7 +1967,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"UpgradeLabel2"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#TF_Trial_MainMenu_Upgrade2"
 			"textAlignment"	"north"
 			"xpos"			"80"
@@ -2527,7 +2619,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"5"
+		"xpos"			"10"
 		"ypos"			"r39"
 		"zpos"			"5"
 		"wide"			"20"
@@ -2549,7 +2641,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2606,7 +2698,7 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -2682,7 +2774,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2731,7 +2823,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2778,7 +2870,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2826,7 +2918,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2874,7 +2966,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -3030,7 +3122,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_GameMenu_ExitReplay"
-		"font"			"hudfontsmallbold_bw"
+		"font"			"hudfontsmallbold"
 		"textAlignment"	"west"
 		"textinsetx"	"35"
 		"use_proportional_insets" "1"
@@ -3088,7 +3180,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"%highlighttext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -3145,7 +3237,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"#MMenu_TutorialHighlight_Button"
-				"font"			"hudfontsmallbold_bw"
+				"font"			"hudfontsmallbold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -3195,7 +3287,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3256,7 +3348,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#MMenu_PracticeHighlight_Title"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -3313,7 +3405,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labeltext"		"#MMenu_PracticeHighlight_Button"
-				"font"			"hudfontsmallbold_bw"
+				"font"			"hudfontsmallbold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -3363,7 +3455,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3426,7 +3518,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#MMenu_NewUserForumHighlight_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3475,7 +3567,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3538,7 +3630,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#MMenu_OptionsHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3587,7 +3679,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3650,7 +3742,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#MMenu_LoadoutHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3699,7 +3791,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3762,7 +3854,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"labelText"		"#MMenu_StoreHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -3811,7 +3903,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"hudfontsmallbold_bw"
+			"font"			"hudfontsmallbold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -3848,8 +3940,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c0"
-		"ypos"			"-3"
+		"xpos"			"c50"
+		"ypos"			"50"
 		"zpos"			"-60"
 		"wide"			"320"
 		"tall"			"f0"
@@ -3862,12 +3954,12 @@
 			"ControlName"			"ImagePanel"
 			"fieldName"				"EventImage"
 			"xpos"					"cs-0.5"
-			"ypos"					"50"
+			"ypos"					"550"
 			"zpos"					"-1"
 			"wide"					"p0.9"
 			"tall"					"o1"
 			"visible"				"0"
-			"enabled"				"1"
+			"enabled"				"0"
 			"image"					"menu_background_eotl_duck"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
@@ -3884,18 +3976,19 @@
 			"wide"			"p0.8"
 			"tall"			"120"
 			"visible"		"1"
-			//"PaintBackgroundType"	"0"
-			"bgcolor_override"		"32 32 32 240"
+			"PaintBackgroundType"	"1"
 			"proportionaltoparent"	"1"
 
-			//"paintborder"	"1"
-			//"border"		"MainMenuBGBorder"
+			"paintborder"	"1"
+			"border"		""
+			"bgcolor_override" "DarkGray"
+			
 
 			"OperationTitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"OperationTitleLabel"
-				"font"			"Museo14"
+				"font"			"solFontRegular18"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"0"
@@ -3907,7 +4000,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"textinsetx"	"20"
-				"fgcolor_override"	"234 234 234 255"
+				"fgcolor_override"	"235 227 203 255"
 			}
 
 			"ViewDetailsButton"
@@ -3937,7 +4030,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"Museo14"
+					"font"			"HudFontSmallBold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -3949,16 +4042,15 @@
 					"command"		"view_update_page"
 					"actionsignallevel"	"4"
 			
-					"border_default"	"EventButton_Default"
-					"border_armed"		"EventButton_Armed"
-					"paintbackground"	"1"
-			
-					"defaultBgColor_override" "234 234 234 255"
-					"armedBgColor_override" "BuffedColor"
-					"depressedBgColor_override" "234 234 234 255"
-					"defaultFgColor_override" "32 32 32 255"
-					"armedFgColor_override" "32 32 32 255"
-					"depressedFgColor_override" "32 32 32 255"
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 			
@@ -3989,7 +4081,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"Museo14"
+					"font"			"HudFontSmallBold"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -4001,16 +4093,15 @@
 					"command"		"view_update_comic"
 					"actionsignallevel"	"4"
 			
-					"border_default"	"EventButton_Default"
-					"border_armed"		"EventButton_Armed"
-					"paintbackground"	"1"
-			
-					"defaultBgColor_override" "234 234 234 255"
-					"armedBgColor_override" "BuffedColor"
-					"depressedBgColor_override" "234 234 234 255"
-					"defaultFgColor_override" "32 32 32 255"
-					"armedFgColor_override" "32 32 32 255"
-					"depressedFgColor_override" "32 32 32 255"
+					"defaultBgColor_override"	"15 15 15 255"
+					"armedBgColor_override"		"25 25 25 255"
+					"depressedBgColor_override"	"25 25 25 255"
+					"defaultFgColor_override"	"TanLight"
+					"armedFgColor_override" 	"TanLight"
+					"depressedFgColor_override" "TanLight"
+					"border_default"			"ButtonHover"
+					"border_armed"				"ButtonHover"
+					"paintbackground"			"1"
 				}
 			}
 
@@ -4028,75 +4119,50 @@
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
 
-				"bgcolor_override"		"32 32 32 240"
-				"fgcolor_override"		"234 234 234 255"
+				"bgcolor_override"		"0 0 0 255"
 
 				"items"
 				{
 					"0"
 					{
-						"item"		"Unused Summer 2015 Operation Pass"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Unused Operation Tough Break Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Operation Summer 2015 Concealed Killer Case"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Operation Summer 2015 Powerhouse Case"
 
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"3"
+
+
 					{
-						"item"		"Summer 2015 Operation Key"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Boxtrot"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
 					}
 					"5"
 					{
-						"item"		"Taunt: The Proletariat Showoff"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
 					}
 					"6"
 					{
-						"item"		"Taunt: Kazotsky Kick"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Aerobic Taunt"
 						"show_market"	"0"
 					}
 				}
 			}
-
 		} // Background
 
 		"NewImage"
@@ -4108,8 +4174,8 @@
 			"zpos"					"100"
 			"wide"					"80"
 			"tall"					"o1"
-			"visible"				"1"
-			"enabled"				"1"
+			"visible"				"0"
+			"enabled"				"0"
 			"image"					"new_large"
 			"scaleImage"			"1"
 			"proportionaltoparent"	"1"
@@ -4154,3 +4220,4 @@
 		}
 	}
 }
+
