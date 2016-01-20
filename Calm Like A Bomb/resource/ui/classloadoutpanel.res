@@ -523,13 +523,88 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
+
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c60"
+		"ypos"				"90"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"RED Team"
+		"textAlignment"		"center"
+		"font"				"DemiBold18"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "184 56 59 255"
+		"depressedFgColor_override" "184 56 59 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"0"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}
+	
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-150"
+		"ypos"				"90"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"BLU Team"
+		"textAlignment"		"center"
+		"font"				"DemiBold18"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "88 133 162 255"
+		"depressedFgColor_override" "88 133 162 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"0"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}	
+	
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c-115"
-		"ypos"			"c95"
+		"xpos"			"9999"
+		"ypos"			"87"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -560,17 +635,123 @@
 			"image"			"glyph_items"
 		}
 	}
+	
+	"CustomLoadout"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomLoadout"
+		"xpos"			"c-163"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Loadout"
+		"font"			"DemiBold18"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"paintbackground" "1"
+		"Command"		"characterloadout"
+		
+		"fgcolor_override"		"220 220 220 255"
+		
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "5 5 5 255"
+		"depressedFgColor_override" "24 24 24 255"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
+	
+	"CustomTaunt"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CustomTaunt"
+		"xpos"			"c59"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"18"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Taunts"
+		"font"			"DemiBold18"
+		"textAlignment"	"center"
+		"textinsetx"	"0"
+		"use_proportional_insets" "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"paintbackground" "1"
+		"Command"		"tauntloadout"
+		
+		"fgcolor_override"		"220 220 220 255"
+		
+		"defaultFgColor_override" "255 255 255 255"
+		"armedFgColor_override" "5 5 5 255"
+		"depressedFgColor_override" "24 24 24 255"
+		
+		"defaultBgColor_override" "0 0 0 0"
+		"armedBgColor_override" "0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+		
+		"image_drawcolor"	"235 226 202 255"
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"6"
+			"zpos"			"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"glyph_options"
+		}			
+	}
 
 	"TauntLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
-		"labelText"		""
-		"xpos"			"c-85"
-		"ypos"			"c95"
+		"font"			"DemiBold18"
+		"fgcolor"		"95 95 95 255"
+		"labelText"		"Taunts"
+		"xpos"			"9999"
+		"ypos"			"87"
 		"zpos"			"2"
-		"wide"			"25"
-		"tall"			"25"
+		"wide"			"100"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -582,6 +763,24 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"fgcolor_override"		"0 0 0 0"
+		
+		// default style
+		"defaultBgColor_override"	"32 32 32 255"
+		"defaultFgColor_override" "0 0 0 0"
+		"border_default"		"32 32 32 255"
+        
+		// armed style
+		"armedBgColor_override"	"90 180 0 255"
+		"armedFgColor_override" 	"220 220 220 255"
+		"border_armed"		"32 32 32 255"
+    
+		// depressed style    
+		"depressedBgColor_override"	"32 32 32 255"
+		"depressedFgColor_override" "0 0 0 0"
+		
+		"paintbackground"	"0"
 
 		"SubImage"
 		{
@@ -590,14 +789,14 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"1"
-			"wide"			"17"
-			"tall"			"17"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"image"			"../hud/ico_reel"
 		}
-	}
+
 
 	"TauntsExplanation"
 	{
