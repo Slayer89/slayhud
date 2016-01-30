@@ -527,7 +527,7 @@
 			"fgcolor"		"235 226 202 255"
 			"centerwrap"	"1"
 		}
-	}	
+		
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

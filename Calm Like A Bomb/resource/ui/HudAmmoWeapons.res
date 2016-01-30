@@ -125,7 +125,7 @@
         "font"      "DemiBold24"
         "fgcolor"       "0 0 0 255"
         "xpos"      "97"
-        "ypos"      "15"
+        "ypos"      "16"
         "zpos"      "5"
         "wide"      "64"
         "tall"      "28"
