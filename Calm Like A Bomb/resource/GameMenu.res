@@ -27,6 +27,13 @@
 		"OnlyAtMenu" "1"
 		"tooltip" "Mann Up"
 	}
+    "PlayCompButton"
+    {
+        "label" "Competitive" 
+        "command" "ladder_ui_show"
+        "OnlyAtMenu" "1"
+ 		"tooltip" "Play Competitive"
+   }	
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers" 

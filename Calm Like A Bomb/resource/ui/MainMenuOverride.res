@@ -523,7 +523,8 @@
 			}		
 		}	
 	}
-		"MOTD_ShowButtonPanel"
+
+	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
@@ -1205,7 +1206,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ConsoleButton"
 		"xpos"			"-1"
-		"ypos"			"r339"
+		"ypos"			"r329"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
@@ -2122,7 +2123,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"PlayPVEButton"
 		"xpos"			"-1"
-		"ypos"			"r359"
+		"ypos"			"r347"
 		"zpos"			"11"
 		"wide"			"223"
 		"tall"			"20"
@@ -2242,7 +2243,68 @@
 			}		
 		}
 	}
-	
+	"PlayCompButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"PlayCompButton"
+		"xpos"			"-1"
+		"ypos"			"r365"
+		"zpos"			"11"
+		"wide"			"223"
+		"tall"			"20"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"-10"
+			"ypos"			"0"
+			"wide"			"223"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"use_proportional_insets" "1"
+			"font"			"DemiBold14"
+			"textAlignment"	"east"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"border_armed"		""
+			"paintbackground"	"0"
+			
+			"FgColor" "255 255 255 255"			
+			"defaultFgColor_override" "255 255 255 255"
+			"armedFgColor_override" "142 142 142 255"
+			"depressedFgColor_override" "255 255 255 255"
+			
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"8"
+				"ypos"			"6"
+				"zpos"			"2"
+				"wide"			"11"
+				"tall"			"11"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}		
+		}
+	}	
 	"SlayHUD"
 	{
 		"ControlName"	"EditablePanel"

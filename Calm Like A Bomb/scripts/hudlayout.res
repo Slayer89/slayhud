@@ -88,7 +88,7 @@
         "ypos"                                          "c-25"
         "wide"                                          "50"
         "tall"                                          "50"
-        "font"                                          "size:20,outline:off"
+        "font"                                     		"size:20,outline:off"
         "labelText"                                     "L"
         "textAlignment"                                 "center"
         "fgcolor"                                       "255 255 255 255"
@@ -318,7 +318,7 @@
         "enabled"   "1"
         "xpos"      "c-120"
         "ypos"      "292"
-        "wide"      "60"
+        "wide"      "600"
         "tall"      "39"
         "priority"  "40"
     }
@@ -330,10 +330,13 @@
         "enabled"   "1"
         "xpos"      "c-120"
         "ypos"      "310"
-        "wide"      "60"
+        "wide"      "600"
         "tall"      "39"
         "priority"  "40"
-    }
+		
+		"x_offset" "20"
+		"y_offset" "20"
+   }
     
     CSecondaryTargetID
     {
@@ -342,7 +345,7 @@
         "enabled"   "1"
         "xpos"      "c-120"
         "ypos"      "412"
-        "wide"      "60"
+        "wide"      "600"
         "tall"      "39"
         "priority"  "40"
     }
@@ -1451,5 +1454,38 @@
 		"ypos"			"0"
 		"wide"	 		"f0"
 		"tall"	 		"f0"
+	}
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}	
+	
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }
