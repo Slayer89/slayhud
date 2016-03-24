@@ -206,13 +206,13 @@
     }   
     "PlayerStatusHealthBonusImage"
     {
-        "ControlName"   "CExLabel"
+        "ControlName"   "ImagePanel"
         "fieldName"     "PlayerStatusHealthBonusImage"
-        "xpos"          "71"    
+        "xpos"          "73"    
         "ypos"          "120"  
         "zpos"          "1"
-        "wide"          "63"    
-        "tall"          "63"    
+        "wide"          "60"    
+        "tall"          "60"    
         "visible"       "1"
         "enabled"       "1"
         "image"         "../hud/health_over_bg"
