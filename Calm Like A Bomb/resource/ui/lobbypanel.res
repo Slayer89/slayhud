@@ -1634,7 +1634,7 @@
 		"fieldName"		"PartyActiveGroupBox"
 		"xpos"			"c+100"
 		"ypos"		"10"
-		"zpos"		"-1"
+		"zpos"		"10"
 		"wide"		"200"
 		"tall"		"330"
 		"visible"	"0"
@@ -1707,8 +1707,6 @@
 				
 				"paintbackground"	"1"
 		
-				"border_default"	"bastBorder"
-			"border_armed"		"bastBorder2"
 			
 			"defaultFgColor_override" "200 200 200 255"
 			"armedFgColor_override" "200 200 200 255"
