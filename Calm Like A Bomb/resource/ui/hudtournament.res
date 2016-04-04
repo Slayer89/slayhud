@@ -75,14 +75,14 @@
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"image"			"competitive/competitive_logo_laurel"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
 			if_competitive
 			{
-				"visible"		"1"
+				"visible"		"0"
 			}
 		}
 		
@@ -559,7 +559,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"12"
 			"tall"			"20"
-			"visible"		"1"
+			"visible"		"0"
 		}
 		
 		if_readymode
@@ -664,7 +664,10 @@
 		{
 			"visible"		"0"
 		}
-
+		if_competitive
+		{
+			"visible"		"0"
+		}
 	}
 
 	"ShadedBarBlue"
@@ -688,7 +691,15 @@
 		{
 			"visible"		"0"
 		}
-
+		if_competitive
+		{
+			"visible"		"1"
+			"xpos"			"c-35"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"35"
+			"tall"			"15"
+		}
 	}
 
 	"TournamentBLUELabel"
@@ -787,7 +798,15 @@
 		{
 			"visible"		"0"
 		}
-
+		if_competitive
+		{
+			"visible"		"1"
+			"xpos"			"429"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"35"
+			"tall"			"15"
+		}
 	}
 	"HudTournamentREDBG"
 	{
@@ -849,7 +868,10 @@
 		{
 			"visible"		"0"
 		}
-
+		if_competitive
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentREDLabel"
 	{	
@@ -944,7 +966,12 @@
 		{
 			"visible"		"0"
 		}
+		if_competitive
+		{
+			"visible"		"0"
+		}
 	}
+
 	"TournamentConditionLabel"
 	{	
 		"ControlName"		"CExLabel"
@@ -974,7 +1001,7 @@
 			"xpos"			"c-45"
 			"ypos"			"18"
 			"tall"			"35"
-			"visible"		"1"
+			"visible"		"0"
 			"font"			"TFFontMedium"
 		}
 
@@ -1146,9 +1173,9 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"111"
 			"wide"			"190"
-			"tall"			"12"
+			"tall"			"15"
 			"visible"		"1"
-			"fgcolor"		"Black"
+			"fgcolor"		"255 255 255 255"
 		}
 
 		if_readymode

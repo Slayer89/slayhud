@@ -5,11 +5,11 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"				"HudTeamStatus"
 
-		"team1_base_x"	"c-60"
+		"team1_base_x"	"c-80"
 		"team1_base_y"	"0"
 		"team1_delta_x"	"-18"
 		"team1_delta_y"	"0"
-		"team2_base_x"	"c40"
+		"team2_base_x"	"c60"
 		"team2_base_y"	"0"
 		"team2_delta_x"	"18"
 		"team2_delta_y"	"0"
